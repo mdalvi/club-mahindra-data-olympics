@@ -1,0 +1,40 @@
+all three dates - month, day, year, is_weekend, week of year, weekday
+# of weekend days during stay
+# of weekday days during stay
+
+difference between booking date and checkin date = "1st difference"
+difference between booking date and checkout date
+
+adult + childern count = total family count
+has_children = boolean
+
+stay_period != roomnights = boolean
+roomnights - stay_period = "stay_diff"
+
+family - pax = "family_pax_less"
+pax == family , are_all_travelling = boolean
+
+children:adult ratio
+"1st difference": children ratio
+"1st difference": adult ratio
+"1st difference": family ratio
+# weekend/ # weekday ratio
+# weekday/ # weekend ratio
+
+stay_period:children count ratio
+stay_period:adult count ratio
+stay_period:family count ratio
+stay_period:"1st difference"
+
+"stay_diff":children count ratio
+"stay_diff":adult count ratio
+"stay_diff":family count ratio
+"stay_diff":"1st difference"
+
+
+
+!!add seasonality bins!!
+!!possible newborn a.k.a. family changes, behaviour changes based on memberid and time series data!!
+!!possible resort business changes based on resort_id!!
+e.g.
+people living in resort during checkin
